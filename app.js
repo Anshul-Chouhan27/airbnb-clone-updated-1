@@ -22,7 +22,9 @@ const userRouter=require("./routes/users.js")
 // 
 
 //const mongooseUrl="mongodb://127.0.0.1:27017/wanderlust";
-const dbUrl=process.env.ATLASDB_URL;
+// const dbUrl=process.env.ATLASDB_URL;
+const dbUrl="mongodb+srv://anshul:oSJiosf1PbXMTsqS@cluster0.jxiv0zq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
 
 
 main().then((res)=>{
